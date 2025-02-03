@@ -3,6 +3,10 @@
 # dependencies
 node_modules/
 
+uploads/
+
+.vscode/
+
 # Expo
 .expo/
 dist/

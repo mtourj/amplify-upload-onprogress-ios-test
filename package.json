@@ -3,13 +3,9 @@
   "main": "expo-router/entry",
   "version": "1.0.0",
   "scripts": {
-    "start": "expo start",
-    "reset-project": "node ./scripts/reset-project.js",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web",
-    "test": "jest --watchAll",
-    "lint": "expo lint"
+    "upload-server": "node upload-server/server.js",
+    "ios": "expo run:ios",
+    "android": "expo run:android"
   },
   "jest": {
     "preset": "jest-expo"
@@ -30,6 +26,8 @@
     "expo-symbols": "~0.2.1",
     "expo-system-ui": "~4.0.7",
     "expo-web-browser": "~14.0.2",
+    "express": "^4.17.1",
+    "multer": "^1.4.4",
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "react-native": "0.76.6",
