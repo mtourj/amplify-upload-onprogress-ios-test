@@ -1,4 +1,4 @@
-The replicate this issue:
+To replicate this issue:
 
 - Install deps (including expo-dev-client)
 - run `npm run upload-server` to start the file upload server (to accept test file uploads)
